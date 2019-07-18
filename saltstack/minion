@@ -1,0 +1,13 @@
+file_roots:
+  base:
+    - /opt/saltstack/salt
+    - /opt/saltstack/local-formulas
+    - /opt/saltstack/formulas/*
+
+pillar_roots:
+  base:
+    - /opt/saltstack/pillar
+  local:
+    - /opt/saltstack/pillar/environment/local
+
+pillar_source_merging_strategy: recurse

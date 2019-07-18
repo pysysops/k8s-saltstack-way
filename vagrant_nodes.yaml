@@ -1,0 +1,20 @@
+---
+nodes:
+  local-controller-01:
+    ip: 192.168.100.10
+    memory: 1024
+  local-controller-02:
+    ip: 192.168.100.11
+    memory: 1024
+  local-controller-03:
+    ip: 192.168.100.12
+    memory: 1024
+  local-worker-01:
+    ip: 192.168.100.13
+    memory: 1024
+  local-worker-02:
+    ip: 192.168.100.14
+    memory: 1024
+  local-worker-03:
+    ip: 192.168.100.15
+    memory: 1024
